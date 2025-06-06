@@ -1,4 +1,10 @@
-.container-fluid {
+body{
+    display: grid;
+}
+
+
+
+.bwBG {
     background-image: url(../img/bw.jpg);
      background-repeat: no-repeat;
     background-size: cover;
@@ -13,4 +19,19 @@
 .js {
     color: white;
     font-size: 40px;
+}
+
+.H {
+font-size: 30Px;
+}
+.c {
+font-size: 50Px;
+}
+
+.grid {
+    display: grid;
+  width: 400px;
+  height: 20px;
+  grid-template: 1fr 1fr 1fr  / 5fr 50% fr1;
+
 }
