@@ -22,16 +22,32 @@ body{
 }
 
 .H {
-font-size: 30Px;
-}
-.c {
 font-size: 50Px;
 }
+.c {
+font-size: 60Px;
+color: rgb(0, 141, 141);
+}
 
-.grid {
-    display: grid;
-  width: 400px;
-  height: 20px;
-  grid-template: 1fr 1fr 1fr  / 5fr 50% fr1;
+.container {
+   display: flex;
+  width: 100vw;
 
+}
+
+.row {
+    width: 100%;
+}
+
+.col {
+ width: 50%;
+}
+
+.Abt {
+font-size: 25px;
+}
+
+.thi {
+    width: 800px;
+    height: 900px;
 }
